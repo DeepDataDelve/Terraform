@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "twitter-media-search-s3-bucket" {
+resource "aws_s3_bucket" "media-resources" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
 
